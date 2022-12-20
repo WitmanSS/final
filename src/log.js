@@ -8,14 +8,14 @@ let check
 
 change.addEventListener("click", (e) =>{
    if(check){
-    e.target.textContent = "ad ile daxil ol";
+    e.target.textContent = "email ile daxil ol";
     label.textContent = "adinizi daxil edin";
     label.setAttribute("for", "name");
     wremail.setAttribute("type", "text");
     wremail.setAttribute("id", "name");
     check = false;
 } else{
-    e.target.textContent = " email ile daxil ol";
+    e.target.textContent = "ad ile daxil ol";
     label.textContent = "emaili daxil edin";
     label.setAttribute("for","email");
     wremail.setAttribute("type","email");

@@ -2,7 +2,7 @@ import React ,{Component}from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav, Navbar,NavDropdown, NavItem, NavLink } from "react-bootstrap";
 
-class Bs2 extends Component{
+class GRE extends Component{
     render(){
         return(
                    <>
@@ -28,6 +28,7 @@ class Bs2 extends Component{
                                 <NavDropdown.Item>Germany </NavDropdown.Item>
                                 <NavDropdown.Item>USA</NavDropdown.Item>
                                 <NavDropdown.Item>SSRI</NavDropdown.Item>
+
                                 </NavDropdown>
                                 </Nav>
             </ul>
@@ -39,4 +40,4 @@ class Bs2 extends Component{
         )
     }
 }
-export default Bs2
+export default GRE
