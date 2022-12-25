@@ -3,11 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .main{
     display: flex;
     flex-direction: row;
     margin-left: 10px;
     justify-content: space-evenly;
+    border: none;
 }
 .card{
     width: 20rem;
@@ -21,4 +23,7 @@ body{
 }
 #nav{
     background-color: darkslategray;
+}
+.none{
+    display: none;
 }
