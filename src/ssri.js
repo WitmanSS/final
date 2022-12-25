@@ -1,41 +1,152 @@
 import React ,{Component}from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar,NavDropdown, NavItem, NavLink } from "react-bootstrap";
+import { Button,Nav, Navbar,NavDropdown, NavItem, NavLink } from "react-bootstrap";
+import "./Gre.css"
 
 class SSRI extends Component{
     render(){
         return(
-                   <>
-                    <Navbar bg="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white text-opacity-75 bg-dark" href="#">Warthunder</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-              </li>
-              <NavItem >
-                    <NavLink color="light" href="#" >tanks</NavLink>
-              </NavItem>
-              <NavLink>
-                Pricing
-              </NavLink>
-              <Nav>
-                                <NavDropdown title="TEst">
-                                <NavDropdown.Item>Germany </NavDropdown.Item>
-                                <NavDropdown.Item>USA</NavDropdown.Item>
-                                <NavDropdown.Item>SSRI</NavDropdown.Item>
+          <>
+          <body>
+               <div className="App">
+<Navbar id="nav" color="dark" sticky="top" expand="lg" collapseOnSelect>
+  <Navbar.Brand style={{marginLeft:"30px"}}>
+    Warthunder
+  </Navbar.Brand>
+  <Navbar.Toggle className="coloring" />
+  <Navbar.Collapse>
+    <Nav>
+      <NavDropdown title="Tanks">
+        <NavDropdown.Item href="#Tanks/Germany">Germany</NavDropdown.Item>
+        <NavDropdown.Item href="#products/SSRI">SSRI</NavDropdown.Item>
+        <NavDropdown.Item href="#products/USA">USA</NavDropdown.Item>
 
-                                </NavDropdown>
-                                </Nav>
-            </ul>
-          </div>
+      </NavDropdown>
+      <Nav.Link href="#blog">Blog</Nav.Link>
+      <Nav.Link href="#about-us">About Us</Nav.Link>
+      <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+
+</Navbar>
+<h1 style={{color:"darkred"}} >Germany</h1>
+</div>  <div className="main">
+  <div className="GreM"> 
+        <Button id="head" style={{marginLeft:"3.5rem"}}>
+       Medium Tanks
+        </Button>
+        <div className="card">
+          <h5>Panzer IV H</h5>
+          <img src={require("./GreM/1200px-ArtImage_Pz.IV_H.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
         </div>
-      </Navbar>  
-                   </>
+        <div className="card">
+          <h5>Panther A</h5>
+          <img src={require("./GreM/1200px-ArtImage_Panther_A.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>   
+         <div className="card">
+          <h5>Leopard 1A5</h5>
+          <img src={require("./GreM/1200px-ArtImage_Leopard_1A5.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+        <div className="card">
+          <h5>Leopard 2A6</h5>
+          <img src={require("./GreM/1200px-ArtImage_Leopard_2A6.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+    
+</div>
+  <div className="GreM">
+     <Button id="head" style={{marginLeft:"3.5rem"}}>
+       Heavy Tanks
+        </Button>
+        <div className="card">
+          <h5>Tiger E</h5>
+          <img src={require("./GreH/1200px-ArtImage_Tiger_E.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+        <div className="card">
+          <h5>Tiger II (P)</h5>
+          <img src={require("./GreH/1200px-ArtImage_Tiger_II_(P).png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+        <div className="card">
+          <h5>Tiger II (H)</h5>
+          <img src={require("./GreH/1200px-ArtImage_Tiger_II_(H).png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+        <div className="card">
+          <h5>Maus</h5>
+          <img src={require("./GreH/1200px-ArtImage_Maus.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+</div>
+  <div div className="GreM"> 
+    <Button id="head" style={{marginLeft:"3.5rem"}}>
+        Tank Hunters
+       </Button>
+       <div className="card">
+          <h5>Jadpanther</h5>
+          <img src={require("./GreTH/1200px-ArtImage_Jagdpanther_G1.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+        <div className="card">
+          <h5>Ferdinand</h5>
+          <img src={require("./GreTH/1200px-ArtImage_Ferdinand.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+        <div className="card">
+          <h5>Jadtiger</h5>
+          <img src={require("./GreTH/1200px-ArtImage_Jagdtiger.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+        <div className="card">
+          <h5>JPz 4-5</h5>
+          <img src={require("./GreTH/1200px-ArtImage_JPz_4-5.png")} />
+          <h6>German cold war era mbt</h6>
+          <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
+            The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
+             </p>
+        </div>
+</div>
+</div>
+             </body>
+
+             </>
     
         )
     }

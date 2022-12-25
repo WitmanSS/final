@@ -28,9 +28,8 @@ class GRE extends Component{
         </Navbar.Collapse>
 
       </Navbar>
-    </div> 
-                   </body>
-      <div className="main">
+      <h1 style={{color:"darkred"}} >Germany</h1>
+    </div>  <div className="main">
         <div className="GreM"> 
               <Button id="head" style={{marginLeft:"3.5rem"}}>
              Medium Tanks
@@ -111,32 +110,32 @@ class GRE extends Component{
               Tank Hunters
              </Button>
              <div className="card">
-                <h5>Maus</h5>
-                <img src={require("./GreH/1200px-ArtImage_Maus.png")} />
+                <h5>Jadpanther</h5>
+                <img src={require("./GreTH/1200px-ArtImage_Jagdpanther_G1.png")} />
                 <h6>German cold war era mbt</h6>
                 <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
                   The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
                    </p>
               </div>
               <div className="card">
-                <h5>Maus</h5>
-                <img src={require("./GreH/1200px-ArtImage_Maus.png")} />
+                <h5>Ferdinand</h5>
+                <img src={require("./GreTH/1200px-ArtImage_Ferdinand.png")} />
                 <h6>German cold war era mbt</h6>
                 <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
                   The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
                    </p>
               </div>
               <div className="card">
-                <h5>Maus</h5>
-                <img src={require("./GreH/1200px-ArtImage_Maus.png")} />
+                <h5>Jadtiger</h5>
+                <img src={require("./GreTH/1200px-ArtImage_Jagdtiger.png")} />
                 <h6>German cold war era mbt</h6>
                 <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
                   The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
                    </p>
               </div>
               <div className="card">
-                <h5>Maus</h5>
-                <img src={require("./GreH/1200px-ArtImage_Maus.png")} />
+                <h5>JPz 4-5</h5>
+                <img src={require("./GreTH/1200px-ArtImage_JPz_4-5.png")} />
                 <h6>German cold war era mbt</h6>
                 <p>The Leopard 1A5, being a further development of the Leopard A1A1, does not differ much from its predecessor in terms of armour. The Leopard 1A5 prioritizes firepower and mobility over the survivability of the tank.
                   The armour in the frontal arc is reliable against many of the autocannons found on IFVs at the rank, but occasional rounds can penetrate the turret ring. Side armour can be reliably penetrated by autocannon fire, thus it is vital to keep the front of the armour towards the enemy.
@@ -144,6 +143,8 @@ class GRE extends Component{
               </div>
       </div>
       </div>
+                   </body>
+     
                    </>
     
         )

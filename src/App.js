@@ -1,14 +1,13 @@
 import React from "react";
 import './App.css';
 import Test from './test'
-import Gre from "./gre"
+import SSRI from "./ssri"
 
 function App() {
   return (
         <>
-         {/* <BS2 /> */}
+         <SSRI/>
         {/* <Test/> */}
-        <Gre/>
         </>
   );
 }
