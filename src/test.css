@@ -1,7 +1,16 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 #head{
     background-color: crimson;
+    margin-top: 5px;
+    border: none;
     margin-bottom: 5px;
+}
+body{
+    background-image: url("./texture-1306790.jpg");
+}
+#nav{
+    background-color: darkslategray;
 }

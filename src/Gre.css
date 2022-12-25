@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+.card{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 5px; 
+  overflow: auto;   
+   background-color: dimgray;
+}
+body{
+    background-image: url("./texture-1306790.jpg");
+}
+#nav{
+    background-color: darkslategray;
+}
