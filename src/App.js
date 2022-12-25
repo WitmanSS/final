@@ -1,13 +1,13 @@
 import React from "react";
 import './App.css';
 import Test from './test'
-import SSRI from "./ssri"
+import USA from "./usa"
 
 function App() {
   return (
         <>
-         <SSRI/>
         {/* <Test/> */}
+        <USA/>
         </>
   );
 }

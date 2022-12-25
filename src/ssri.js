@@ -7,17 +7,33 @@ class SSRI extends Component{
   state ={
     displM: 'none',
     displH: "none",
-    displTH:'none'
+    displTH:'none',
+    submitM: true,
+    submitH: true,
+    submitTH: true
   }
   clickHandlerM = () => {
-    this.setState({ displM: "card" });
+         if(this.state.submitM){
+           this.setState({ displM: "card", submitM: false });}
+           else if(!this.state.submitM) {
+            this.setState({ displM: "none", submitM: true })
+           }
+   
   };
   clickHandlerH = () => {
-    this.setState({ displH: "card" });
+    if(this.state.submitH){
+      this.setState({ displH: "card", submitH: false });}
+      else if(!this.state.submitH) {
+       this.setState({ displH: "none", submitH: true })
+      }
   };
  
   clickHandlerTH = () => {
-    this.setState({ displTH: "card" });
+    if(this.state.submitTH){
+      this.setState({ displTH: "card", submitTH: false });}
+      else if(!this.state.submitTH) {
+       this.setState({ displTH: "none", submitTH: true })
+      }
   };
  
  

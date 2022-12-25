@@ -12,7 +12,8 @@
     border: none;
 }
 .card{
-    width: 20rem;
+    color: aliceblue;
+    width: 27.5rem;
     height: 20rem;
     margin-top: 5px; 
   overflow: auto;   
@@ -26,4 +27,11 @@ body{
 }
 .none{
     display: none;
+}
+h5{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+.inline{
+    display: inline;
 }
